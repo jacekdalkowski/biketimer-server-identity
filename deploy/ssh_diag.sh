@@ -1,0 +1,1 @@
+ssh -oStrictHostKeyChecking=no -vvv root@46.101.148.70
