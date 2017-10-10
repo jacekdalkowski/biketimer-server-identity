@@ -34,7 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "src/package.json" }}
         
       # run tests!
-      - run: ~/repo/src/node_modules/mocha/bin/_mocha -u tdd --timeout 999999 --colors src/*.spec.js
+      #- run: ~/repo/src/node_modules/mocha/bin/_mocha -u tdd --timeout 999999 --colors src/*.spec.js
 
       - store_artifacts:
           path: ~/repo
